@@ -48,7 +48,7 @@ To safely terminate the program, click on the webcam video window to make it act
 
 ## 6. Important Notes
 
-- Before running the main.py file in Python, the keras_model.h5, labels.txt, and main.py files must all be in the same folder!
+- **Before running the main.py file in Python, the keras_model.h5, labels.txt, and main.py files must all be in the same folder!**
 - The program checks for the label "no_person" in 'labels.txt'. If your label is named differently, the 5-second timer will not start.
 - If the program fails to read the webcam, check if another application is currently using the camera.
 - This program is designed for Windows only. The `ctypes.windll.user32.LockWorkStation()` function is a Windows-exclusive API.
