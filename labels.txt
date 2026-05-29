@@ -1,0 +1,2 @@
+0 person_existed
+1 no_person
